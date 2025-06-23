@@ -17,8 +17,8 @@ This project is a **full-stack Retrieval-Augmented Generation (RAG)** system for
 ```
 full-stack-QA-application/
 ├── backend/
-│   ├── .env               # Environment variables file
-│   ├── data/              # Folder containing uploaded PDFs
+│   ├── .env                 # Environment variables file
+│   ├── data/                # Folder containing uploaded PDFs
 │   ├── main.py              # FastAPI app with PDF upload and chat API
 │   ├── config.py            # Model and DB config
 │   ├── requirements.txt     # Python dependencies
