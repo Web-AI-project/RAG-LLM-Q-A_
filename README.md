@@ -44,6 +44,19 @@ full-stack-QA-application/
 - pip or conda
 - Optional: virtualenv
 
+---
+
+## 🔐 Environment Variables
+
+Before running the backend, create a `.env` file inside the `backend/` folder with the following content:
+
+```env
+GOOGLE_API_KEY=add_your_key_here
+VECTOR_DB_PATH=./vector_store
+PDF_UPLOAD_PATH=../data
+
+---
+
 ### 📦 Install
 
 ```bash
