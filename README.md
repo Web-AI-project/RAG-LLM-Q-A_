@@ -40,20 +40,18 @@ full-stack-QA-application/
 
 ### 🔧 Prerequisites
 
-- Python 3.10+
-- pip or conda
-- Optional: virtualenv
+Add the following environment variables in a `.env` file or set them manually:
 
-
-## 🔐 Environment Variables
-
-Before running the backend, create a `.env` file inside the `backend/` folder with the following content:
-
-```env
+```
 GOOGLE_API_KEY=add_your_key_here
 VECTOR_DB_PATH=./vector_store
 PDF_UPLOAD_PATH=../data
+```
 
+
+- Python 3.10+
+- pip or conda
+- Optional: virtualenv
 
 ### 📦 Install
 
@@ -77,6 +75,15 @@ API Docs: http://localhost:8000/docs
 ## 💻 2. Frontend Setup (Next.js + React)
 
 ### 🔧 Prerequisites
+
+Add the following environment variables in a `.env` file or set them manually:
+
+```
+GOOGLE_API_KEY=add_your_key_here
+VECTOR_DB_PATH=./vector_store
+PDF_UPLOAD_PATH=../data
+```
+
 
 - Node.js 16+
 - npm or yarn
