@@ -13,9 +13,12 @@ This project is a **full-stack Retrieval-Augmented Generation (RAG)** system for
 
 ## 📁 Project Structure
 
+
 ```
 full-stack-QA-application/
 ├── backend/
+│   ├── .env               # Environment variables file
+│   ├── data/              # Folder containing uploaded PDFs
 │   ├── main.py              # FastAPI app with PDF upload and chat API
 │   ├── config.py            # Model and DB config
 │   ├── requirements.txt     # Python dependencies
@@ -26,12 +29,12 @@ full-stack-QA-application/
 │   │   ├── rag_pipeline.py  # LLM + Retriever QA logic
 │   │   └── vector_store.py  # Embedding & vector DB logic
 ├── frontend/
-│   ├── pages/               # Next.js pages
-│   ├── components/          # FileUpload & ChatInterface
-│   ├── styles/              # Basic styling
-│   ├── package.json         # NPM config
-│   └── tsconfig.json        # TypeScript config
-└── data/                    # Uploaded PDFs
+    ├── pages/               # Next.js pages
+    ├── components/          # FileUpload & ChatInterface
+    ├── styles/              # Basic styling
+    ├── package.json         # NPM config
+    └── tsconfig.json        # TypeScript config
+
 ```
 
 ---
