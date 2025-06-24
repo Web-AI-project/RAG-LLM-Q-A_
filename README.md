@@ -79,15 +79,6 @@ API Docs: http://localhost:8000/docs
 
 ### 🔧 Prerequisites
 
-Add the following environment variables in a `.env` file or set them manually:
-
-```
-GOOGLE_API_KEY=add_your_key_here
-VECTOR_DB_PATH=./vector_store
-PDF_UPLOAD_PATH=../data
-```
-
-
 - Node.js 16+
 - npm or yarn
 
